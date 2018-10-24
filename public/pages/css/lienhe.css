@@ -1,0 +1,340 @@
+/********** BEGIN:  Phần dành cho layout ***********/
+*{
+	margin: 0;
+	padding: 0;
+ }
+ .right{
+	 float:right;
+	 }
+	  .clear{
+		 clear:left;
+		 clear:right;
+		 
+	}
+
+/********* BEGIN: text, title ***********/
+.fa{
+	color:black;
+}
+.text1{
+  float: right;
+  font-family: Tahoma;
+  margin-left: 5px;
+  font-size: 15px;
+  line-height: 0px;
+  color:black;
+}
+.text2{
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  z-index: 2;
+  color: white;
+  font-size: 18px;
+}
+.text3 {
+  position: absolute;
+  left: 5%;
+  z-index: 2;
+  color: white;
+  font-size: 18px;
+  padding-left: 15px;
+}
+.text6 {
+  color: #201d19;
+  font-size: 18px;
+  font-family: Tahoma;
+  line-height: 30px;
+  text-align: left;
+}
+.title1{
+  font-family: Tahoma;
+  font-size: 23px;
+  color: white;
+  border-bottom: 0px solid red;
+}
+/********* END: wrapper ***********/
+
+
+/********* BEGIN: input ***********/
+.input7{
+	position: absolute;
+	z-index: 2;
+	float: right;
+	left: 50%;
+	top: 30px;
+} 
+.input8{
+	width: 350px;
+	height: 30px;
+} 
+.input9{
+	height: 34px;
+	width: 50px;
+	background-color:#e60606;
+	color: white;
+} 
+/********* END: input ***********/
+
+/********* BEGIN: wrapper ***********/
+#wrapper{
+   width: 100%;
+   height: auto;
+   border: 10px solid red;
+   float: left;
+   background:white;
+   display:table;
+}
+/********* END: wrapper ***********/
+
+
+
+
+
+
+#box8{
+	width: 80%;
+    height: auto;
+    border: 0px solid blue;
+    margin:0 auto;
+   
+}
+#map{
+	width:100%;
+	height:500px;
+	background:black;
+}
+#contact{
+	width:100%;
+	height:500px;
+}
+#contact #contactform{
+	width:50%;
+	height:auto;
+	border:0px solid;
+	float:left;
+}
+#contact #contactinfomation{
+	width:40%;
+	height:auto;
+	border:0px solid;
+	float:left;
+	margin-left:30px;
+}
+#contact #contactinfomation p{
+	color:#333;
+	font:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+}
+
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+#box8-1{
+	width: 100%;
+   	height: 40px;
+   	border: 0px solid black;
+   	border-bottom:1px solid #FF0000;
+   	box-shadow: 0px 4px #dddfd9;
+	padding-bottom: 10px;
+}
+
+
+
+#lbl1, #lbl2, #lbl3,#lbl4, #lbl5, #lbl6, #lbl7, #lbl8, #lbl9{
+	width:100%;
+	float:left;
+}
+
+
+.lbl{
+	width:100%;
+	float:left;
+	height:30px;
+	display:block;
+	line-height:30px;
+}
+.txt{
+	width:70%;
+	height:30px;
+}
+.txtnote{
+	width:100%;
+	height:180px;
+}
+
+
+
+.btndangky{
+	background:#C00;
+	height:30px;
+	line-height:30px;
+	display:block;
+	width:150px;
+	border-radius:10px;
+	margin-top:15px;
+	padding-left:20px;
+	color:white;
+	font-weight:700;
+	float:left;
+}
+
+
+
+
+
+
+
+
+
+
+h2{
+	color:#0C6;
+	font: 400 22px/20px 'Roboto';
+	font-weight:bold;
+}
+
+.link1{
+    font-size:17px;
+    color: #0C0;
+	text-decoration:none;
+	font-weight:bold;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+.link1:hover{
+   color:#F00;
+   text-decoration:none;
+}
+
+
+
+/********* END: PRODUCT ***********/
+#box8-2{
+	width: 100%;
+   	height: auto;
+   	border: 0px solid black;
+	margin-top:0px;
+	position:relative;
+	z-index:1;
+	display:table;
+}
+
+
+
+
+
+/********* END: PRODUCT COMMONT ***********/
+
+
+a{
+	text-decoration: none;
+	transition: all 0.35s ease-in-out;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+a:hover{
+	text-decoration:none;
+}
+p{
+	font-family:Tahoma;
+	color:#92457C;
+}
+
+
+
+/**************BEGIN: RESPONSIVE thiết bị tablet****************/
+@media only screen  and (max-width: 1614px)
+{
+
+#box2 {
+
+    width: 29%;
+}
+
+
+/**************BEGIN: RESPONSIVE thiết bị tablet****************/
+@media only screen and (min-width: 769px) and (max-width: 1176px)
+{
+
+#box8-2 {
+    width: 100%;
+}
+#box2 {
+
+    width: 44%;
+}
+	
+		
+#hr3{
+	display:none;
+}
+#hr4{
+	display:none;
+}
+.txt{
+	width:100%;
+	height:30px;
+}
+.txtnote{
+	width:100%;
+	height:180px;
+}
+#contact #contactform{
+	width:100%;
+	height:auto;
+	border:0px solid;
+	float:left;
+}
+#contact #contactinfomation{
+	width:100%;
+	height:auto;
+	border:1px solid;
+	float:left;
+	margin-left:0px;
+	margin-top:10px;
+}
+
+
+
+
+
+
+}
+
+/**************END: RESPONSIVE thiết bị tablet****************/
+
+/**************BEGIN: RESPONSIVE thiết bị di động****************/
+@media only screen and (max-width: 769px)
+{
+
+.txt{
+	width:100%;
+	height:30px;
+}
+.txtnote{
+	width:100%;
+	height:180px;
+}
+#contact #contactform{
+	width:100%;
+	height:auto;
+	border:0px solid;
+	float:left;
+}
+#contact #contactinfomation{
+	width:100%;
+	height:auto;
+	border:1px solid;
+	float:left;
+	margin-left:0px;
+	margin-top:10px;
+}
+
+
+}
+
+
+
+

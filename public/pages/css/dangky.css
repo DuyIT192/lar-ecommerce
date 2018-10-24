@@ -1,0 +1,462 @@
+/********** BEGIN:  Phần dành cho layout ***********/
+*{
+	margin: 0;
+	padding: 0;
+ }
+ .right{
+	 float:right;
+	 }
+	  .clear{
+		 clear:left;
+		 clear:right;
+		 
+	}
+
+/********* BEGIN: text, title ***********/
+.fa{
+	color:black;
+}
+.text1{
+  float: right;
+  font-family: Tahoma;
+  margin-left: 5px;
+  font-size: 15px;
+  line-height: 0px;
+  color:black;
+}
+.text2{
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  z-index: 2;
+  color: white;
+  font-size: 18px;
+}
+.text3 {
+  position: absolute;
+  left: 5%;
+  z-index: 2;
+  color: white;
+  font-size: 18px;
+  padding-left: 15px;
+}
+.text6 {
+  color: #201d19;
+  font-size: 18px;
+  font-family: Tahoma;
+  line-height: 30px;
+  text-align: left;
+}
+.title1{
+  font-family: Tahoma;
+  font-size: 23px;
+  color: white;
+  border-bottom: 0px solid red;
+}
+/********* END: wrapper ***********/
+
+
+/********* BEGIN: input ***********/
+.input7{
+	position: absolute;
+	z-index: 2;
+	float: right;
+	left: 50%;
+	top: 30px;
+} 
+.input8{
+	width: 350px;
+	height: 30px;
+} 
+.input9{
+	height: 34px;
+	width: 50px;
+	background-color:#e60606;
+	color: white;
+} 
+/********* END: input ***********/
+
+/********* BEGIN: wrapper ***********/
+#wrapper{
+   width: 100%;
+   height: auto;
+   border: 10px solid red;
+   float: left;
+   background:white;
+   display:table;
+}
+/********* END: wrapper ***********/
+
+
+
+
+
+
+#box8{
+	width: 80%;
+    height: auto;
+    border: 0px solid blue;
+    margin:0 auto;
+   
+}
+.col75{
+	width:74%;
+	height:auto;
+	border:0px solid red;
+	position:relative;
+	z-index:1;
+	display:table;
+}
+
+.col75 p {
+
+    font: 600 14px/25px tahoma;
+	color:black;
+
+}
+.col75 select {
+
+    font: 500 14px/25px 'Open Sans', sans-serif;
+    margin-bottom: 30px;
+
+}
+.col25{
+	width:25%;
+	height:auto;
+	border:0px solid blue;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+#box8-1{
+	width: 100%;
+   	height: 40px;
+   	border: 0px solid black;
+   	border-bottom:1px solid #FF0000;
+   	box-shadow: 0px 4px #dddfd9;
+	padding-bottom: 10px;
+}
+
+
+#dangnhap{
+	width:50%;
+	height:auto;
+	float:left;
+	margin-left:auto;
+	margin-right:auto;
+	border:0px solid;
+}
+#pass{
+	width:50%;
+	height:auto;
+	float:left;
+}
+
+#lbl1, #lbl2, #lbl3,#lbl4, #lbl5, #lbl6, #lbl7, #lbl8, #lbl9{
+	width:100%;
+	float:left;
+}
+
+
+.lbl{
+	width:100%;
+	float:left;
+	height:30px;
+	display:block;
+	line-height:30px;
+}
+.txt{
+	width:70%;
+	height:30px;
+}
+
+
+.country{
+	width:70%;
+	height:30px;
+}
+.btndangky{
+	background:#C00;
+	height:30px;
+	line-height:30px;
+	display:block;
+	width:100px;
+	border-radius:10px;
+	margin-top:15px;
+	padding-left:20px;
+	color:white;
+	font-weight:700;
+	float:left;
+}
+
+
+
+
+
+
+
+
+
+
+h2{
+	color:#0C6;
+	font: 400 22px/20px 'Roboto';
+	font-weight:bold;
+}
+
+.link1{
+    font-size:17px;
+    color: #0C0;
+	text-decoration:none;
+	font-weight:bold;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+.link1:hover{
+   color:#F00;
+   text-decoration:none;
+}
+
+
+
+/********* END: PRODUCT ***********/
+#box8-2{
+	width: 100%;
+   	height: auto;
+   	border: 0px solid black;
+	margin-top:0px;
+	position:relative;
+	z-index:1;
+	display:table;
+}
+
+
+
+
+
+/********* END: PRODUCT COMMONT ***********/
+
+
+
+
+.box9{
+	margin: 0;
+	width:100%;
+    border:  1px solid #e1e1e1;
+    border-top-width: inherit;
+}
+.box9 h4{
+	background-color: #7d0000;
+	height: 40px;
+	display: block;
+	line-height: 40px;
+	text-align: center;
+	color: white;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+.box9 ul{
+	list-style-type: none;
+}
+.box9 ul li{
+	margin-top: 10px;
+	margin-left: 30px;
+	font-weight: bold;
+	
+}
+.box9 ul li a:active{
+	font-size: 150%;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+.box15{
+	margin: 0;
+    width:100%;
+    background-color: #7d0000;
+    height: 50px;
+}
+.box15 h3{
+	color: #fcf907;
+	height: 50px;
+	display: block;
+	line-height: 50px;
+	text-align: center;
+	font-family:Tahoma, Geneva, sans-serif;
+
+}
+.box17{
+	height: auto;
+	margin: 0;
+    width:100%;
+    border:  1px solid #e1e1e1;
+    border-top-width: inherit;
+	padding-bottom:50px;
+	display:table;
+}
+.box17 h4{
+	background-color: #7d0000;
+	height: 40px;
+	display: block;
+	line-height: 40px;
+	text-align: center;
+	color: white;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+.box17 img{
+	width: 80px;
+	height: 80px;
+	margin-left: 10px;
+	margin-top:0px;
+	margin-right:10px;
+	float: left;
+	border:1px solid;
+}
+.box17 p{
+	float: left;
+	width: 100%;
+    height: auto;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+.box17 p a{
+	text-decoration:none;
+	color:black;
+	font-weight:600;
+}
+.box17 p .prikm{
+	text-decoration: line-through;
+	font: 400 14px/20px tahoma;
+
+
+    font-size: 14px;
+    font-family: tahoma;
+
+	color: #333;
+}
+.box17 p .prigia{
+	font: 600 14px/20px tahoma;
+
+    font-size: 14px;
+    font-family: tahoma;
+
+	color: red;
+}
+a{
+	text-decoration: none;
+	transition: all 0.35s ease-in-out;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+a:hover{
+	text-decoration:none;
+}
+p{
+	font-family:Tahoma;
+	color:#92457C;
+}
+
+
+
+/**************BEGIN: RESPONSIVE thiết bị tablet****************/
+@media only screen  and (max-width: 1614px)
+{
+
+#box2 {
+
+    width: 29%;
+}
+
+
+/**************BEGIN: RESPONSIVE thiết bị tablet****************/
+@media only screen and (min-width: 769px) and (max-width: 1176px)
+{
+
+#box8-2 {
+    width: 100%;
+}
+#box2 {
+
+    width: 44%;
+}
+	
+		
+#hr3{
+	display:none;
+}
+#hr4{
+	display:none;
+}
+.box17{
+	height:auto;
+	display:table;
+	width: 100%;
+}
+#dangnhap{
+	width:100%;
+}
+#pass{
+	width:100%;
+}
+
+.txt{
+	width:100%;
+	height:30px;
+}
+
+
+.country{
+	width:100%;
+	height:30px;
+}
+
+
+
+
+
+
+}
+
+/**************END: RESPONSIVE thiết bị tablet****************/
+
+/**************BEGIN: RESPONSIVE thiết bị di động****************/
+@media only screen and (max-width: 769px)
+{
+	#tableproduct{
+	
+	display:none;
+}
+#sumcart{
+	width:100%;
+	margin-top:15px;
+}
+.col75{
+	width:100%;
+}
+.col25{
+	width:100%;
+}
+
+#dangnhap{
+	width:100%;
+}
+#pass{
+	width:100%;
+}
+
+.txt{
+	width:100%;
+	height:30px;
+}
+
+
+.country{
+	width:100%;
+	height:30px;
+}
+
+
+
+}
+
+
+
+
